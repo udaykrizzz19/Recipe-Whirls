@@ -6,6 +6,31 @@
 All colors MUST be HSL.
 */
 
+
+
+html::-webkit-scrollbar {
+  width: 1px;
+}
+
+html::-webkit-scrollbar-track {
+  background: hsl(25, 20%, 15%);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color:linear-gradient(135deg, hsl(35, 70%, 60%), hsl(25, 40%, 30%));
+  border-radius: 6px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: linear-gradient(135deg, hsl(35, 70%, 60%), hsl(25, 40%, 30%));
+}
+
+html {
+  scrollbar-width: thin; 
+  scrollbar-color: hsl(35, 70%, 60%) hsl(25, 20%, 15%);
+}
+
+
 @layer base {
 :root {
     --background: 20 5% 98%;
@@ -46,8 +71,8 @@ All colors MUST be HSL.
     --vegetarian-foreground: 0 0% 100%;
 
     /* Food-inspired gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(25 95% 53%), hsl(35 100% 60%));
-    --gradient-hero: linear-gradient(135deg, hsl(25 95% 53% / 0.9), hsl(35 100% 60% / 0.9));
+    --gradient-primary: linear-gradient(135deg, hsl(35, 70%, 60%), hsl(25, 40%, 30%));
+    --gradient-hero: linear-gradient(135deg, hsl(35, 70%, 60%), hsl(25, 40%, 30%));
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(20 5% 98%));
     
     /* Shadows */
@@ -149,3 +174,4 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
