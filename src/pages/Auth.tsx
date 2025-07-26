@@ -174,7 +174,7 @@ export default function Auth() {
                     </Alert>
                   )}
                 </CardContent>
-                <CardFooter className="space-y-4">
+                <CardFooter className="space-y-1">
                   <Button
                     type="submit"
                     className="w-full bg-gradient-primary hover:opacity-90 transition-opacity"
@@ -194,12 +194,12 @@ export default function Auth() {
                   <Button
                     type="button"
                     variant="outline"
-                    className="w-full"
+                    className="w-full mb-3 "
                     onClick={handleGoogleSignIn}
                     disabled={isLoading}
                   >
-                    {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-                    <svg className="mr-2 h-4 w-4" viewBox="0 0 24 24">
+                    {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin " />}
+                    <svg className="mr-2 h-4 w-4" viewBox="0 0 24 24 ">
                       <path
                         d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
                         fill="#4285F4"
@@ -218,8 +218,9 @@ export default function Auth() {
                       />
                     </svg>
                      with Google
+                  
                   </Button>
-                </CardFooter>
+                  </CardFooter>
               </form>
             </Card>
           </TabsContent>
@@ -296,7 +297,7 @@ export default function Auth() {
                     </Alert>
                   )}
                 </CardContent>
-                <CardFooter className="space-y-4">
+                <CardFooter className="space-y-1">
                   <Button
                     type="submit"
                     className="w-full bg-gradient-primary hover:opacity-90 transition-opacity"
