@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Foods_-_Idil_Keysan_-_Wikimedia_Giphy_stickers_2019.gif" alt="Chef Cooking" width="200"/>
-  <h1><b>Recipe Whirls - Recipe Generation </b> 🍳</h1>
+  <h1><b>Recipe Whirls - Recipe Generation</b> 🍳</h1>
 </div>
 
 <div align="center">
@@ -18,31 +18,60 @@
 
 ## 📖 Table of Contents
 
-*   [✨ Features](#-features)
-*   [🛠️ Tech Stack](#️-tech-stack)
-*   [🚀 Getting Started](#-getting-started)
-*   [🗺️ Roadmap](#️-roadmap)
-*   [🤝 Contributing](#-contributing)
-*   [📧 Contact](#-contact)
+*   <a href="#-about-the-project">🧐 About The Project</a>
+*   <a href="#-problem-statement">🎯 Problem Statement</a>
+*   <a href="#-solution">💡 Solution</a>
+*   <a href="#-features">✨ Features</a>
+*   <a href="#-gallery">🖼️ Gallery</a>
+*   <a href="#️-tech-stack">🛠️ Tech Stack</a>
+*   <a href="#-getting-started">🚀 Getting Started</a>
+*   <a href="#️-roadmap">🗺️ Roadmap</a>
+*   <a href="#-contributing">🤝 Contributing</a>
+*   <a href="#-contact">📧 Contact</a>
 
 ---
 
 ## 🧐 About The Project
 
-This Recipe Generation App was born from a love for food and a desire to create a beautiful, user-friendly platform for discovering and sharing culinary creations. 🍲 Our application leverages **TheMealDB API** to bring you a vast and diverse collection of recipes from all over the world. [3] We've focused on creating a seamless and engaging user experience with a visually appealing design and fluid animations.
+Recipe Whirls was born from a love for food and a desire to create a beautiful, user-friendly platform for discovering and sharing culinary creations. 🍲 Our application leverages **TheMealDB API** to bring you a vast and diverse collection of recipes from all over the world. [3] We've focused on creating a seamless and engaging user experience with a visually appealing design and fluid animations.
 
 Whether you're a seasoned chef or just starting your cooking journey, this app is for you!
 
 ---
 
+## 🎯 Problem Statement
+
+Many home cooks face the daily challenge of deciding what to make with the ingredients they have, often leading to food waste and meal fatigue. Existing recipe platforms can be overwhelming, lacking intuitive tools to turn available items into a delicious meal. This transforms cooking from a creative, enjoyable process into a frustrating chore, leaving users uninspired and stuck in a culinary rut, searching for a more dynamic and helpful kitchen companion.
+
+---
+
+## 💡 Solution
+
+Recipe Whirls tackles this by introducing a "Search by Items" feature, suggesting recipes based on ingredients you already have, thus minimizing food waste and sparking creativity. With the "Filter by Category" option, users can easily explore various cuisines and meal types. By allowing users to save favorites and contribute their own recipes, our app transforms the daily task of cooking into an inspiring and delightful culinary journey, making every meal an exciting new adventure.
+
+---
+
 ## ✨ Features
 
+*   **🥑 Search by Items:** Get recipe suggestions based on the ingredients you have on hand.
+*   **📂 Filter by Category:** Easily browse recipes by cuisine, meal type, and more.
 *   **🔍 Effortless Recipe Discovery:** Instantly search for recipes from the extensive TheMealDB API.
 *   **🔐 Secure User Authentication:** Easy and secure login and signup, including a "Sign in with Google" option via OAuth, all powered by Supabase.
 *   **📚 Personalized Recipe Box:** Save your favorite recipes to your personal collection for quick and easy access.
 *   **✍️ Share Your Culinary Creations:** A dedicated space for you to contribute your own recipes and share them with our growing community.
 *   **🎨 Stunning & Intuitive UI/UX:** A visually rich and user-friendly interface with smooth, delightful animations.
 
+---
+
+## 🖼️ Gallery
+
+<div align="center">
+  <img src="https://via.placeholder.com/400x250.png?text=Login+Page+Screenshot" alt="Login Page" style="margin: 10px;"/>
+  <img src="https://via.placeholder.com/400x250.png?text=Recipe+Display+Screenshot" alt="Recipe Display" style="margin: 10px;"/>
+  <br/>
+  <img src="https://via.placeholder.com/400x250.png?text=User+Profile+Screenshot" alt="User Profile" style="margin: 10px;"/>
+  <img src="https://via.placeholder.com/400x250.png?text=Add+Recipe+Page+Screenshot" alt="Add Recipe Page" style="margin: 10px;"/>
+</div>
 
 ---
 
@@ -54,7 +83,7 @@ This project is built with a modern and powerful tech stack:
 *   **[React](https://reactjs.org/)**
 *   **[TypeScript](https://www.typescriptlang.org/)**
 *   **[Tailwind CSS](https://tailwindcss.com/)**
-*   **[Framer Motion](https://www.framer.com/motion/)**
+*   **[Framer Motion](https://www.framer.com/motion/)** for animations
 
 ### Backend & Database
 *   **[Supabase](https://supabase.io/)**
@@ -82,7 +111,7 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
 1.  **Fork the repository**
 2.  **Clone the repo**
     ```sh
-    git clone https://github.com/your_username/your_project_name.git
+    git clone https://github.com/your_username/recipe-whirls.git
     ```
 3.  **Install NPM packages**
     ```sh
@@ -108,12 +137,14 @@ The app will be available at `http://localhost:3000`.
 
 ## 🗺️ Roadmap
 
-We have exciting plans for the future of the Recipe Generation App!
+We have exciting plans for the future of Recipe Whirls!
 
-*   [ ] **Advanced Search Filters:** Filter recipes by ingredients, cuisine, and dietary restrictions.
+*   [ ] **Advanced Search Filters:** Enhance filtering with dietary restrictions.
 *   [ ] **Meal Planner:** Plan your meals for the week and generate a shopping list.
 *   [ ] **Recipe Ratings and Reviews:** Let users rate and review recipes.
 *   [ ] **Social Sharing:** Easily share your favorite recipes on social media.
+
+See the [open issues](https://github.com/your_username/recipe-whirls/issues) for a full list of proposed features (and known issues).
 
 ---
 
@@ -135,4 +166,4 @@ If you have a suggestion for improvement, please fork the repo and create a pull
 
 Your Name - [@your_twitter_handle](https://twitter.com/your_twitter_handle) - your.email@example.com
 
-Project Link: [https://github.com/your_username/your_project_name](https://github.com/your_username/your_project_name)
+Project Link: [https://github.com/your_username/recipe-whirls](https://github.com/your_username/recipe-whirls)
