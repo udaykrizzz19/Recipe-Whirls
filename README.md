@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Foods_-_Idil_Keysan_-_Wikimedia_Giphy_stickers_2019.gif" alt="Chef Cooking" width="200"/>
-  <h1><b>Recipe Generation App</b> 🍳</h1>
+  <h1><b>Recipe Whirls - Recipe Generation </b> 🍳</h1>
 </div>
 
 <div align="center">
@@ -18,9 +18,7 @@
 
 ## 📖 Table of Contents
 
-*   [About The Project](#-about-the-project)
 *   [✨ Features](#-features)
-*   [Gallery](#-gallery)
 *   [🛠️ Tech Stack](#️-tech-stack)
 *   [🚀 Getting Started](#-getting-started)
 *   [🗺️ Roadmap](#️-roadmap)
@@ -45,17 +43,6 @@ Whether you're a seasoned chef or just starting your cooking journey, this app i
 *   **✍️ Share Your Culinary Creations:** A dedicated space for you to contribute your own recipes and share them with our growing community.
 *   **🎨 Stunning & Intuitive UI/UX:** A visually rich and user-friendly interface with smooth, delightful animations.
 
----
-
-## 🖼️ Gallery
-
-<div align="center">
-  <img src="https://via.placeholder.com/400x250.png?text=Login+Page+Screenshot" alt="Login Page" style="margin: 10px;"/>
-  <img src="https://via.placeholder.com/400x250.png?text=Recipe+Display+Screenshot" alt="Recipe Display" style="margin: 10px;"/>
-  <br/>
-  <img src="https://via.placeholder.com/400x250.png?text=User+Profile+Screenshot" alt="User Profile" style="margin: 10px;"/>
-  <img src="https://via.placeholder.com/400x250.png?text=Add+Recipe+Page+Screenshot" alt="Add Recipe Page" style="margin: 10px;"/>
-</div>
 
 ---
 
@@ -67,7 +54,7 @@ This project is built with a modern and powerful tech stack:
 *   **[React](https://reactjs.org/)**
 *   **[TypeScript](https://www.typescriptlang.org/)**
 *   **[Tailwind CSS](https://tailwindcss.com/)**
-*   **[Framer Motion](https://www.framer.com/motion/)** for animations
+*   **[Framer Motion](https://www.framer.com/motion/)**
 
 ### Backend & Database
 *   **[Supabase](https://supabase.io/)**
@@ -127,8 +114,6 @@ We have exciting plans for the future of the Recipe Generation App!
 *   [ ] **Meal Planner:** Plan your meals for the week and generate a shopping list.
 *   [ ] **Recipe Ratings and Reviews:** Let users rate and review recipes.
 *   [ ] **Social Sharing:** Easily share your favorite recipes on social media.
-
-See the [open issues](https://github.com/your_username/your_project_name/issues) for a full list of proposed features (and known issues). [13]
 
 ---
 
