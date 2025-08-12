@@ -11,6 +11,7 @@
 [![Supabase Badge](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.io/)
 [![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Framer Motion Badge](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Gemini Badge](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white)](https://gemini.google.com/)
 
 </div>
 
@@ -56,6 +57,7 @@ Recipe Whirls tackles this by introducing a "Search by Items" feature, suggestin
 *   **🥑 Search by Items:** Get recipe suggestions based on the ingredients you have on hand.
 *   **📂 Filter by Category:** Easily browse recipes by cuisine, meal type, and more.
 *   **🔍 Effortless Recipe Discovery:** Instantly search for recipes from the extensive TheMealDB API.
+*   **🤖 AI Culinary Assistant:** Get instant answers to your food-related questions, from ingredient substitutions to cooking techniques, with our Gemini-powered chatbot.
 *   **🔐 Secure User Authentication:** Easy and secure login and signup, including a "Sign in with Google" option via OAuth, all powered by Supabase.
 *   **📚 Personalized Recipe Box:** Save your favorite recipes to your personal collection for quick and easy access.
 *   **✍️ Share Your Culinary Creations:** A dedicated space for you to contribute your own recipes and share them with our growing community.
@@ -93,8 +95,9 @@ This project is built with a modern and powerful tech stack:
 *   **[Supabase Auth](https://supabase.com/docs/guides/auth)**
 *   **[Google OAuth](https://developers.google.com/identity/protocols/oauth2)**
 
-### API
+### APIs & AI
 *   **[TheMealDB API](https://www.themealdb.com/api.php)**
+*   **[Google Gemini API](https://ai.google.dev/)**
 
 ---
 
@@ -119,11 +122,12 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
     ```
 4.  **Set up your environment variables**
 
-    Create a `.env.local` file in the root of your project and add your Supabase project URL and anon key. You can find these in your Supabase project settings.
+    Create a `.env.local` file in the root of your project and add your Supabase and Gemini API keys.
 
     ```
     REACT_APP_SUPABASE_URL=YOUR_SUPABASE_URL
     REACT_APP_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+    REACT_APP_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
     ```
 
 5.  **Run the development server**
@@ -143,6 +147,7 @@ We have exciting plans for the future of Recipe Whirls!
 *   [ ] **Meal Planner:** Plan your meals for the week and generate a shopping list.
 *   [ ] **Recipe Ratings and Reviews:** Let users rate and review recipes.
 *   [ ] **Social Sharing:** Easily share your favorite recipes on social media.
+*   [ ] **Enhanced AI Chat:** Deeper integration with recipes for dynamic suggestions.
 
 See the [open issues](https://github.com/your_username/recipe-whirls/issues) for a full list of proposed features (and known issues).
 
