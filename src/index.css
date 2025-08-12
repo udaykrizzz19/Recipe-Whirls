@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+
+
+html::-webkit-scrollbar {
+  width: 1px;
+}
+
+html::-webkit-scrollbar-track {
+  background: hsl(25, 20%, 15%);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color:linear-gradient(135deg, hsl(35, 70%, 60%), hsl(25, 40%, 30%));
+  border-radius: 6px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: linear-gradient(135deg, hsl(35, 70%, 60%), hsl(25, 40%, 30%));
+}
+
+html {
+  scrollbar-width: thin; 
+  scrollbar-color: hsl(35, 70%, 60%) hsl(25, 20%, 15%);
+}
+
+
+@layer base {
+:root {
+    --background: 20 5% 98%;
+    --foreground: 24 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 24 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 24 10% 10%;
+
+    --primary: 25 95% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 20 5% 96%;
+    --secondary-foreground: 24 10% 10%;
+
+    --muted: 20 5% 96%;
+    --muted-foreground: 25 5% 45%;
+
+    --accent: 25 95% 53%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 5% 90%;
+    --input: 20 5% 90%;
+    --ring: 25 95% 53%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --vegetarian: 120 60% 50%;
+    --vegetarian-foreground: 0 0% 100%;
+
+    /* Food-inspired gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(35, 70%, 60%), hsl(25, 40%, 30%));
+    --gradient-hero: linear-gradient(135deg, hsl(35, 70%, 60%), hsl(25, 40%, 30%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(20 5% 98%));
+    
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px hsl(25 95% 53% / 0.1), 0 2px 4px -1px hsl(25 95% 53% / 0.06);
+    --shadow-elegant: 0 10px 25px -5px hsl(25 95% 53% / 0.15);
+    --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    --backdrop-blur: blur(8px);
+    --glass-border: rgba(255, 255, 255, 0.18);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+.dark {
+    --background: 24 10% 8%;
+    --foreground: 20 5% 95%;
+
+    --card: 24 10% 10%;
+    --card-foreground: 20 5% 95%;
+
+    --popover: 24 10% 10%;
+    --popover-foreground: 20 5% 95%;
+
+    --primary: 25 95% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 24 10% 15%;
+    --secondary-foreground: 20 5% 95%;
+
+    --muted: 24 10% 15%;
+    --muted-foreground: 25 5% 60%;
+
+    --accent: 25 95% 53%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 24 10% 15%;
+    --input: 24 10% 15%;
+    --ring: 25 95% 53%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --vegetarian: 120 60% 50%;
+    --vegetarian-foreground: 0 0% 100%;
+
+/* 9. Whiskey & Oak */
+--gradient-primary: linear-gradient(135deg, hsl(35, 70%, 60%), hsl(25, 40%, 30%));
+--gradient-hero: linear-gradient(135deg, hsl(35, 70%, 60% / 0.8), hsl(25, 40%, 30% / 0.8));
+--gradient-card: linear-gradient(180deg, hsl(25, 25%, 14%), hsl(25, 25%, 11%));
+
+    /* Dark shadows */
+    --shadow-card: 0 4px 6px -1px hsl(0 0% 0% / 0.3), 0 2px 4px -1px hsl(0 0% 0% / 0.2);
+    --shadow-elegant: 0 10px 25px -5px hsl(0 0% 0% / 0.4);
+    --shadow-glass: 0 8px 32px 0 rgba(255, 255, 255, 0.2);
+    --backdrop-blur: blur(8px);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
