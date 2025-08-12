@@ -6,6 +6,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { X, MessageCircle, Send, ChefHat, Utensils } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { GeminiAPI } from '@/services/gemmaApi';
+import { useAuth } from '@/hooks/useAuth';
 
 interface Message {
   id: string;
@@ -15,6 +16,7 @@ interface Message {
 }
 
 export function ChatBot() {
+  const { user } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
   const [messageIdCounter, setMessageIdCounter] = useState(1);
   const [messages, setMessages] = useState<Message[]>([
@@ -95,6 +97,11 @@ export function ChatBot() {
       handleSendMessage();
     }
   };
+
+  // Don't render anything if user is not authenticated
+  if (!user) {
+    return null;
+  }
 
   return (
     <>

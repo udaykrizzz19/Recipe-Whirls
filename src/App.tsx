@@ -32,7 +32,6 @@ const App = () => (
               <Route path="/create-recipe" element={<CreateRecipe />} />
               <Route path="/favorites" element={<Favorites />} />
               <Route path="/profile" element={<Profile />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
             <ChatBot />
