@@ -284,7 +284,7 @@ export default function Home() {
           {isLoading ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
               {Array.from({ length: 8 }).map((_, i) => (
-                <div key={i} className="animate-pulse">
+                <div key={`skeleton_${i}`} className="animate-pulse">
                   <div className="bg-muted rounded-lg h-48 md:h-64 mb-4" />
                   <div className="space-y-2">
                     <div className="bg-muted rounded h-4 w-3/4" />
@@ -295,9 +295,9 @@ export default function Home() {
             </div>
           ) : recipes.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
-              {recipes.map((recipe) => (
+              {recipes.map((recipe, index) => (
                 <RecipeCard
-                  key={recipe.idMeal}
+                  key={`recipe_${recipe.idMeal}_${index}_${recipe.strMeal?.replace(/\s+/g, '_') || 'unknown'}`}
                   recipe={recipe}
                   onDislike={() => handleRecipeDislike(recipe.idMeal)}
                   isFavorited={userFavorites.has(recipe.idMeal)}

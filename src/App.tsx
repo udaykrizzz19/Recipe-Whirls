@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import { AuthProvider } from "@/hooks/useAuth";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
+import { ChatBot } from "@/components/ChatBot";
 import Home from "./pages/Home";
 import Auth from "./pages/Auth";
 import RecipeDetail from "./pages/RecipeDetail";
@@ -34,6 +35,7 @@ const App = () => (
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
+            <ChatBot />
             <ThemeToggle />
           </BrowserRouter>
         </TooltipProvider>
