@@ -23,7 +23,6 @@
 *   <a href="#-problem-statement">🎯 Problem Statement</a>
 *   <a href="#-solution">💡 Solution</a>
 *   <a href="#-features">✨ Features</a>
-*   <a href="#-gallery">🖼️ Gallery</a>
 *   <a href="#️-tech-stack">🛠️ Tech Stack</a>
 *   <a href="#-getting-started">🚀 Getting Started</a>
 *   <a href="#️-roadmap">🗺️ Roadmap</a>
@@ -62,18 +61,6 @@ Recipe Whirls tackles this by introducing a "Search by Items" feature, suggestin
 *   **📚 Personalized Recipe Box:** Save your favorite recipes to your personal collection for quick and easy access.
 *   **✍️ Share Your Culinary Creations:** A dedicated space for you to contribute your own recipes and share them with our growing community.
 *   **🎨 Stunning & Intuitive UI/UX:** A visually rich and user-friendly interface with smooth, delightful animations.
-
----
-
-## 🖼️ Gallery
-
-<div align="center">
-  <img src="https://via.placeholder.com/400x250.png?text=Login+Page+Screenshot" alt="Login Page" style="margin: 10px;"/>
-  <img src="https://via.placeholder.com/400x250.png?text=Recipe+Display+Screenshot" alt="Recipe Display" style="margin: 10px;"/>
-  <br/>
-  <img src="https://via.placeholder.com/400x250.png?text=User+Profile+Screenshot" alt="User Profile" style="margin: 10px;"/>
-  <img src="https://via.placeholder.com/400x250.png?text=Add+Recipe+Page+Screenshot" alt="Add Recipe Page" style="margin: 10px;"/>
-</div>
 
 ---
 
@@ -169,6 +156,4 @@ If you have a suggestion for improvement, please fork the repo and create a pull
 
 ## 📧 Contact
 
-Your Name - [@your_twitter_handle](https://twitter.com/your_twitter_handle) - your.email@example.com
-
-Project Link: [https://github.com/your_username/recipe-whirls](https://github.com/your_username/recipe-whirls)
+Project Link:[([https://github.com/udaykrizzz19/Recipe-Whirls/])](https://github.com/udaykrizzz19/Recipe-Whirls/edit/main/README.md)
