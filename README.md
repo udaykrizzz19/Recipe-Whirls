@@ -64,7 +64,7 @@ Recipe Whirls tackles this by introducing a "Search by Items" feature, suggestin
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Project Tech Stack
 
 This project is built with a modern and powerful tech stack:
 
