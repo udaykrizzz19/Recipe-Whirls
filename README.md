@@ -34,7 +34,6 @@
 ## 🧐 About The Project
 
 Recipe Whirls was born from a love for food and a desire to create a beautiful, user-friendly platform for discovering and sharing culinary creations. 🍲 Our application leverages **TheMealDB API** to bring you a vast and diverse collection of recipes from all over the world. [3] We've focused on creating a seamless and engaging user experience with a visually appealing design and fluid animations.
-
 Whether you're a seasoned chef or just starting your cooking journey, this app is for you!
 
 ---
